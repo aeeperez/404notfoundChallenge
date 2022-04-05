@@ -12,11 +12,98 @@
     padding: 0;
     background-color: white;
 }
+html {
+    position: relative;
+    width: 1440px;
+    height: 1080px;
+    background-color: #FFFFFF; /*se cambia a blanco*/
+    box-shadow: 0px 2px 24px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+.header-title {
+    position: absolute;
+    color: var(--gray1);
+    font-family: var(--font1);
+    font-weight: 700;
+    height: 25px;
+    width: 133px;
+    font-size: 24px;
+    line-height: 25px;
+    text-align: left;
+    letter-spacing: -0.08em;
+    top: 40px;
+    left: 77px;
+
+}
+.main-title {
+    position: absolute;
+    color: var(--gray1);
+    font-family: var(--font3);
+    font-size: 64px;
+    font-weight: 700;
+    letter-spacing: -0.035em;
+    line-height: 95px;
+    height: 190px;
+    width: 586px;
+    top: 265px;
+    left: 735px;
+}
+.main-subtitle {
+    position: absolute;
+    color: var(--gray2);
+    font-family: var(--font3);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.035em;
+    height: 108px;
+    width: 381px;
+    top: 491px;
+    left: 736px;
+}
+.main-rectangulo {
+    position: absolute;
+    color: #FFFFFF;
+    background-color: var(--gray1);
+    font-family: var(--font3);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: -0.035em;
+    width: 216px;
+    height: 68px;  
+    top: 663px;
+    left: 740px;
+    text-align: center;          
+}
+
+.main-imagen {
+    margin-top: 200px;
+    margin-left: 77px;
+    width: 539.22px;
+    height: 414.25px;
+}
+.footer-pie {
+    position: absolute;
+    color: var(--gray3);
+    font-family: var(--font2);
+    left: 577px;
+    bottom: 24px;
+    width: 287px;
+    height: 17px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+.footer-piesub {
+    font-weight: 700;
+}
+
 /*html {
     font-family: 'Inconsolata', monospace;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Space Mono', monospace;
-}*/
+}
 .header-title {
     position: absolute;
     height: 25px;
@@ -78,6 +165,4 @@
 .footer-pie {
     
 
-}
-
-
+}*/
